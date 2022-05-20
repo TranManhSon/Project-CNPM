@@ -89,7 +89,7 @@ formL.addEventListener("submit", async function(e) {
 
 function redirect(token, userID) {
     if(token) { 
-        return window.location= `http://127.0.0.1:5500/FE/checkk.html?/id=${userID}`;
+        return window.location= `http://127.0.0.1:5500/FE/index.html?/id=${userID}`;
     }
 }
 

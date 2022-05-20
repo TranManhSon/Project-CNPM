@@ -45,7 +45,7 @@ GET http://localhost:3000/api/admin/music
 Content-Type: application/json
 
 
-###
+###addd music
 POST  http://localhost:3000/api/admin/music
 Content-Type: application/json
 
@@ -55,6 +55,23 @@ Content-Type: application/json
     "path": "https://www.dropbox.com/s/raw/ut75jyx4r27sg4e/Dudududu.mp3",
     "image": "https://i.vietgiaitri.com/2020/6/19/lisa-va-jisoo-ket-man-chuoi-video-teaser-ca-nhan-ngay-comeback-cua-black-pink-dang-den-gan-3e1-5020492.jpg"
 }
+
+### get all video
+GET http://localhost:3000/api/admin/video
+Content-Type: application/json
+
+
+###add video
+POST  http://localhost:3000/api/admin/video
+Content-Type: application/json
+
+{
+    "title":"test",
+    "path": "https://www.dropbox.com/s/raw/ut75jyx4r27sg4e/Dudududu.mp4",
+    "image": "https://i.vietgiaitri.com/2020/6/19/lisa-va-jisoo-ket-"
+}
+
+
 
 
 ###

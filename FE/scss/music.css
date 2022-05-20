@@ -243,4 +243,26 @@
     /* border-radius: 20px; */
     /* padding: 12px; */
   }
+
+  .yourlist {
+    display: none;
+    /* overflow: scroll; */
+    position: fixed;
+    
+    right: 0;
+    /* max-width: 420px; */
+    /* margin: 0 auto; */
+  }
+  
+  .yourlist .icon-pause {
+    display: none;
+  }
+  
+  .yourlist.playing .icon-pause {
+    display: inline-block;
+  }
+  
+  .yourlist.playing .icon-play {
+    display: none;
+  }
   

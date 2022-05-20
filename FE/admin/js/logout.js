@@ -19,7 +19,7 @@ document.getElementById("adminLogout").addEventListener('click', async function(
                 localStorage.removeItem('token');
                 localStorage.removeItem('user');
                 localStorage.removeItem('id');
-                return window.location.href = 'http://127.0.0.1:5500/FE/checkk.html?';
+                return window.location.href = 'http://127.0.0.1:5500/FE/index.html?';
             }
         } catch (error) {
             console.log(error);
