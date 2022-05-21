@@ -53,7 +53,7 @@ formR.addEventListener("submit", async function(e) {
                     modalRegister.style.display = "none";
                     modalRegister.style.animation = "fade In";
                     modalLogin.style.display = "flex";
-                    return window.location = 'http://127.0.0.1:5500/FE/checkk.html?#login'
+                    return window.location = 'http://127.0.0.1:5500/FE/index.html?#login'
                 } else {
                     messageRegister.innerText = data.error;
                     return location.reload
